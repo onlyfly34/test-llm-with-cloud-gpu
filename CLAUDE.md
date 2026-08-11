@@ -83,6 +83,6 @@ makes a finished download look unfinished.
 
 ## Commit conventions
 
-Commits carry `Co-Authored-By` but **must not carry a `Claude-Session:` trailer** —
-history was rewritten once to remove them. Commit directly to `main`; this is a
-solo repo and its whole history is linear.
+The only trailer is `Signed-off-by: Qi-Ze.Huang <onlyfly34@gmail.com>`. Do not add
+`Co-Authored-By` or `Claude-Session:` — history has been rewritten to strip both.
+Commit directly to `main`; this is a solo repo and its whole history is linear.
